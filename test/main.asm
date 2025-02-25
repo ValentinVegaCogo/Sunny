@@ -6,7 +6,6 @@ entry _start
 struct fix struc
 
 
-
 struct String [data] {
   common
   . db data

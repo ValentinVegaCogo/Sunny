@@ -278,7 +278,7 @@ mod ast {
       Shared,
       TakesSelf,
       Unsafe,
-      Async, 
+      Async,
       Constant
     }
     struct Generic {

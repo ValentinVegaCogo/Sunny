@@ -11,6 +11,7 @@ use super::{ Position, COLUMN, LINE, TOK_LEN };
 
 type TokenIterator<'a> = PeekMoreIterator<Iter<'a, (Position, Token)>>;
 
+// TODO: rename to TokenStream
 pub struct TokenIter<'a>(TokenIterator<'a>);
 impl<'a> TokenIter<'a> {
   pub fn new(tokens: TokenIterator<'a>) -> Self {

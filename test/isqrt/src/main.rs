@@ -2,8 +2,7 @@ use std::io::{ Write, Result, stdin, stdout };
 use std::time::Instant;
 
 type N = u64;
-const TWO: N = 2;
-const MAX_SAFE_INT: N = TWO.pow(63) - 1;
+const MAX_SAFE_INT: N = 2.pow(63) - 1;
 
 fn prompt(text: &str) {
   print!("{text}");
@@ -116,7 +115,7 @@ fn main() -> Result<()> {
   });
 
   // fastest (O(1), const time??) but limited by lossy conversion
-  test("Test 7: conversion + floor", input, |n| {
+  test("conversion + floor", input, |n| {
     (n as f64).sqrt().floor() as N
   });
 
