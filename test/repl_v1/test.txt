@@ -1,7 +1,7 @@
 ~$ sunny repl
 ~$ sunny run $SUNNY/repl.sny
-Welcome to REPL v0.1!
-Call *help()* for more information
+// Welcome to REPL v0.1!
+// Call *repl::help()* for more information
 
 > terminal
 [module]
