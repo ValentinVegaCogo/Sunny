@@ -11,7 +11,7 @@ fun create<T: impl Init>() -> T {
 }
 
 struct Point {
-  pub [x, y]: u8  
+  pub [x, y]: u8
 }
 
 extend Point {
@@ -39,7 +39,7 @@ struct u8 { ... }
 extend u8 {
   priv const fun min() -> Self { return 0_u8 }
   impl Number {
-    const [MIN, MAX]: Self = [Self::min(), 255_u8]
+    const [MIN, MAX]: Self = [Self::min(), (uint8) 255]
   }
   impl Add {
     internal fun add<T>(self, other: T) -> T { ... }

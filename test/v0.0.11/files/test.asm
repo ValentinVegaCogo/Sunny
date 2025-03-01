@@ -20,7 +20,7 @@ section .text
   _start:
     ; Set the system call number to sys_write
     mov rax, 1
-    ; Set the fd to stdout
+    ; Set the fno to stdout
     mov rdi, 1
     ; The text to write
     mov rsi, hello

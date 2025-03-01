@@ -1,5 +1,5 @@
 target
-Cargo.lock
 node_modules
-bun.lockb
 cache
+Cargo.lock
+bun.lockb

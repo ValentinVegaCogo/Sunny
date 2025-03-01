@@ -137,7 +137,7 @@ test "Functions" {
 
   #(allow(idk))
   fun three_decimals<N: PrecisionFormat>(n: N) -> String {
-    f"{n#.3}"
+    f"{n:.3}"
   }
   assert!(three_decimals(1.23456789) == "1.234")
   assert!(three_decimals(-100) == "-100.000")
@@ -243,7 +243,7 @@ test "Number" {
   for
     Int8, Int16, Int32, Int64, Int128,
     UInt8, UInt16, UInt32, UInt64, UInt128,
-    BigInt, BigUint
+    BigInt, BigUInt
   {}
 
   impl Decimal
