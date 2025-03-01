@@ -1,0 +1,1 @@
+Where the source code is converted into a list of tokens.

@@ -1,0 +1,1 @@
+Where the source code is parsed and converted into an Intermediate Representation.
