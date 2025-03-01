@@ -1,25 +1,28 @@
-PS etc> cargo run
+~$ sunny repl
+~$ sunny run $SUNNY/repl.sny
 Welcome to REPL v0.1!
 Call *help()* for more information
 
-> termi|nal
+> terminal
 [module]
 
 *Ctrl+M*
 1 | fun greet() {
 2 |   println("Hello world")
 3 | }
-4 | 
-5 | 
+4 |
+5 |
 
 *Ctrl+M*
 > greet()
 Hello world
 >
 
-
-> help()
-> exit()
-> info()
-> save()
-> clear()
+> repl
+[module]
+> repl::help()
+> repl::info()
+> repl::save(/* path = "sunny_repl.txt" */)
+> repl::clear()
+> repl::history()
+> repl::exit()
