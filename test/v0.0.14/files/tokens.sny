@@ -1,0 +1,105 @@
+
+'\n'
+b'a'
+"asd\r\n\b\t\e\0\u{32}"
+$"asd"$
+b"asd"
+c"asd"
+f"{asd}"
+r"\n"
+
+123
+-123
++123
+00123
+1_234
+1.234
+0.123_456
+1e8
+0xff_FF_00
+0b0000_1111
+
+arglist
+as
+async
+await
+bitset
+break
+case
+class
+const
+continue
+defer
+else
+enum
+for
+fun
+gen
+hidden
+if
+impl
+in
+interface
+let
+loop
+macro
+match
+mod
+return
+shared
+state
+struct
+takes
+type
+unsafe
+use
+var
+where
+while
+
+ident
+ident!
+$ident
+
+& a
+* a
+! a
+~ a
+- a
+--a
+++a
+  a?
+
+a <   b
+a >   b
+a ==  b
+a !=  b
+a <=  b
+a >=  b
+a |>  b
+
+a +   b
+a -   b
+a *   b
+a /   b
+a %   b
+a ^   b
+a &   b
+a &&  b
+a |   b
+a ||  b
+a <<  b
+a >>  b
+
+a +=  b
+a -=  b
+a *=  b
+a /=  b
+a %=  b
+a ^=  b
+a &=  b
+a &&= b
+a |=  b
+a ||= b
+a <<= b
+a >>= b
